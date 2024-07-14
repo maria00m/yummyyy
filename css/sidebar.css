@@ -1,0 +1,69 @@
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 9999;
+    width: 5%;
+    height: 100%;
+
+}
+
+#hidden-ele {
+    width: 0px;
+    margin-left: -100%;
+}
+
+.cls-btn {
+    display: none;
+}
+
+.opn-btn {
+    display: block;
+}
+
+a {
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 78%;
+    height: 100%;
+
+}
+
+.icons {
+    /* position: absolute; */
+    left: 20px;
+    bottom: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+aside h6 {
+    font-size: 15px;
+    /* position: absolute; */
+    left: 10px;
+    bottom: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.img img {
+    width: 3rem;
+}
+
+.img i {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 12px;
+    cursor: pointer;
+}
+
+.end-icons i {
+    position: absolute;
+    bottom: 20px;
+    font-size: 10px;
+    color: rgb(0, 202, 0);
+}

@@ -1,0 +1,14 @@
+input{
+    width: 500px;
+    margin-top: 20px;
+    height: 40px;
+}
+.container{
+    padding-top: 200px;
+}
+
+.err{
+    display: none;
+    background-color: #f8d7da;
+ 
+}

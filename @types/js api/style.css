@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+nav{
+    background-color: black !important;
+}
+.cloud{
+    color: #009ad8;
+    font-size: 40px;
+    width: 55px;
+}
+.size{
+    font-size: 10px;
+}
+.first-item{
+    color: #009ad8;
+}
+a{
+    text-decoration: none !important;
+}

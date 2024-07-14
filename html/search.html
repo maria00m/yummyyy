@@ -1,0 +1,62 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Meal Search</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <link rel="stylesheet" href="../css/all.min.css">
+     <link rel="stylesheet" href="../css/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+
+ </head>
+ <body class="bg-black container mt-5 d-flex flex-column justify-content-center align-items-center">
+    <div class="loading-screen ">
+        <span class="loader"></span>
+    </div>
+    <aside class="d-flex justify-content-between align-items-start bg-white side-bar">
+        <div id="hidden-ele" class="sidebar bg-black d-flex flex-column justify-content-between align-items-start">
+            <div class="links d-flex flex-column ">
+                <a href="./home.html" class="text-decoration-none mt-5 ms-4 text-white" id="home">Home</a>
+                <span id="search" class="mt-3 text-decoration-none ms-4 text-white">Search</span>
+                <a href="./categories.html" id="categories" class="mt-3 text-decoration-none ms-4 text-white">Categories</a>
+                <a href="./area.html" id="area" class="mt-3 text-decoration-none ms-4 text-white">Area</a>
+                <a href="./ingrediants.html" id="ingredients" class="mt-3 text-decoration-none ms-4 text-white">Ingredients</a>
+                <a href="./contact.html" id="contactUs" class="mt-3 text-decoration-none ms-4 text-white">Contact Us</a>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-facebook fs-5"></i>
+                <i class="fa-brands fa-twitter fs-5"></i>
+                <i class="fa-solid fa-globe fs-5"></i>
+                <h6 class="mb-5">Copyright © 2019 All Rights <br> Reserved.</h6>
+            </div>
+        </div>
+        <div class="img d-flex flex-column justify-content-around align-items-center">
+            <div class="my-img d-flex justify-content-center">
+                <img src="../images/logo.png" alt="" class="img-fluid me-2">
+            </div>
+            <div class="close wady">
+                <i class="fa-solid fa-xmark fs-1 cls-btn"></i>
+                <i class="fa-solid fa-bars fs-1 opn-btn"></i>
+
+            </div>
+        </div>
+    </aside>
+     <div class="d-flex justify-content-center w-100">
+         <input type="text" id="searchByName" placeholder="Search By Name..." class="w-100 bg-black form-control text-light mb-3" />
+         <input type="text" id="searchByLetter" placeholder="Search By Letter..." maxlength="1" class="ms-1 bg-black form-control text-light mb-3" />
+     </div>
+     <div class="container mt-4 meal">
+         <div class="row position-relative">
+             <!-- Results will be displayed here -->
+         </div>
+     </div>
+     <script src="../js/jquery-3.7.1.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="../js/search.js"></script>
+     <script src="../js/sidebar.js"></script>
+ </body>
+ </html>
+ 
